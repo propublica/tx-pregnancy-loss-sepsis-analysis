@@ -26,7 +26,7 @@ To connect to our database, we stored the values in a `.env` file in the root of
 
 ## Step 1: Generate a coded file
 
-In the file scripts/1\_code\_pregnancy\_ends.ipynb, we generated a coded file with hospitalizations we were interested in and any relevant data for each hospitalization.
+In the file `scripts/1_code_pregnancy_ends.ipynb`, we generated a coded file with hospitalizations we were interested in and any relevant data for each hospitalization.
 
 We first translated the [methodology published by the Health Resources and Services Administration](https://www.documentcloud.org/documents/25539312-hrsa-federally-available-data-fad-resource-document-for-fy25fy23-application-annual-report/) from SAS to Pandas in order to identify all hospitalizations in which a pregnancy ended and, within those hospitalizations, all rows with a diagnosis or procedure indicating severe maternal morbidity (SMM), based on the [Centers for Disease Control and Prevention definition](https://www.cdc.gov/maternal-infant-health/php/severe-maternal-morbidity/icd.html).
 
