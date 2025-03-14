@@ -10,6 +10,8 @@ In addition to this repository, to fully understand our analysis, please refer t
 
 ## Step 0: Data processing and setup
 
+We used [Poetry](https://python-poetry.org/docs/) to install Python libraries.
+
 Before we could work with the data, we had to combine and transform the tab-delimited files we received. This repository does not include the code we used for this step, because this data transformation is bespoke to the format of the raw data. 
 
 We loaded the files into a PostgreSQL database, creating a main table called `discharge` with a primary key of `record_id`.
