@@ -8,6 +8,8 @@ For this analysis, we purchased seven years (2017-2023) of [Texas inpatient hosp
 
 In addition to this repository, to fully understand our analysis, please refer to our methodology: “[Texas Won’t Study How Its Abortion Ban Impacts Women, So We Did](https://www.propublica.org/article/texas-maternal-mortality-analysis-methodology).”
 
+Questions about the code in this repo? Email andrea.suozzo@propublica.org.
+
 ## Step 0: Data processing and setup
 
 We used [Poetry](https://python-poetry.org/docs/) to install Python libraries.
